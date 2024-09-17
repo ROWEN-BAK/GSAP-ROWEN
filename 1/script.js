@@ -20,9 +20,9 @@ gsap.from(".kaasknop3", {
 
 function what() {
     gsap.from(".kaasknop3", {
-        rotation: 1440,
-        duration: 5,
-        ease: "back",
+        rotation: 14440,
+        duration: 11,
+        ease: "power1",
       });
       
 }
@@ -30,12 +30,16 @@ function what() {
 gsap.from(".nav", { 
     opacity: 0,
     duration: 3,
+    y: -500, x: 0, 
+    ease: "bounce"
     
 });
 
 gsap.from(".img1", { 
+    y: 0, x: 50, 
     opacity: 0,
     duration: 3,
+    ease: "bounce",
 });
 
 gsap.from(".footer", { 

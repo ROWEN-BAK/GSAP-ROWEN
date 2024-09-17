@@ -1,0 +1,23 @@
+.block1 {
+    display: block;
+    width: 9rem;
+    height: 9rem;
+    padding: 1rem;
+    background-color: yellow;
+  }
+
+  .block2 {
+    display: block;
+    width: 9rem;
+    height: 9rem;
+    padding: 1rem;
+    background-color: red;
+  }
+
+  .block3 {
+    display: block;
+    width: 9rem;
+    height: 9rem;
+    padding: 1rem;
+    background-color: blue;
+  }
