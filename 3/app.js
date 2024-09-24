@@ -1,0 +1,7 @@
+gsap.timeline()
+.from(".text1", {duration: 5, opacity: 0})
+.from(".text2", {duration: 5, x: 500, opacity: 0, ease: "bounce"})
+.from(".text3", {duration: 5, y: 10, opacity: 0, rotation: 720, ease: "back"})
+.from(".text4", {duration: 5, scale: 4, opacity: 0, ease: "elastic"})
+.from(".text5", {duration: 5, y:-50, opacity: 0, rotation: 360, ease: "bounce"})
+.from(".text6",{duration: 5, scale: 7, opacity: 0, ease: "back"})
