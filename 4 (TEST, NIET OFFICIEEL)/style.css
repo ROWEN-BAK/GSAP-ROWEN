@@ -1,0 +1,129 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+}
+
+.introduction {
+  margin: 0 auto;
+  text-align: center;
+  width: 50%;
+}
+
+.introduction h1 {
+  padding-top: 50px;
+  color: #333;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 50px;
+  color: #333;
+}
+
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 15px 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  margin: 0 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #76c7c0;
+}
+
+.tracker-section {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  height: 200px;
+}
+
+.progress-bar {
+  width: 80%;
+  height: 30px;
+  background-color: #e0e0e0;
+  margin: 20px auto;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.progress {
+  width: 0;
+  height: 100%;
+  background-color: #76c7c0;
+  border-radius: 15px;
+}
+
+.calorie-count {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.scroll-section {
+  height: 100%;
+  padding: 50px 0;
+  background: linear-gradient(180deg, #f4f4f9, #d9e0e5);
+}
+
+/* Step Counter Section */
+.step-counter-section {
+  padding-top: 50px;
+  text-align: center;
+  margin-bottom: 50px; /* Added margin to prevent overlap */
+}
+
+.step-progress-circle {
+  width: 200px;
+  height: 200px;
+  background-color: #ababab;
+  border-radius: 50%;
+  margin: 60px auto;
+  position: relative;
+}
+
+.step-count {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+}
+
+.step-count-text {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #333;
+}
+
+
